@@ -1,0 +1,270 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/* font-family: 'Pangolin', cursive; */
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.text {
+  position: fixed;
+  top: 30px; left: 30px;
+  color: #000;
+  font-size: 50px;
+  z-index: 30;
+}
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#wrap {
+  position: relative;
+  z-index: 1;
+}
+body {
+  background: url('https://ihatetomatoes.net/merry-christmallax/img/bcg_paper.png');
+}
+
+/* 레이아웃 */
+#header {}
+
+
+
+
+/* 헤더________________ */
+.header {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+.header .getscroll {
+  font-family: 'Pangolin', cursive;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  padding-top: 300px;
+}
+.header .getscroll h1 {
+
+}
+.header .scrollps {
+  height: 60px; width: 60px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+.header .scrollps p {
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  color: #333;
+}
+.header .scrollps .dash {
+  display: inline-block;
+  border-left: 2px dashed #333;
+  width: 3px; height: 90vh;
+  margin-top: 20px;
+}
+
+
+/* section1 */
+.section1 {
+  position: fixed;
+  height: 100vh;
+  left: 0; bottom: 0;
+  
+}
+.section1 span {
+  position: relative;
+  display: block;
+  font-size: 50px;
+  font-family: 'Pangolin', cursive;
+  color: #fff;
+  padding-left: 50px;
+  margin: 0 auto;
+}
+.spring_item {
+  position: absolute;
+  width: 100%; height: 100%;
+  left: 10%;
+}
+.spring_item .sopa {
+  position: absolute;
+  width: 1113px; height: 100%;
+  background: center url(img/sopa.png) no-repeat;
+} 
+.spring_item .dog {
+  position: absolute;
+  width: 1113px; height: 100%;
+  background: center url(img/dog.png) no-repeat;
+} 
+.spring_item .window {
+  position: absolute;
+  width: 1113px; height: 800px;
+  background: url(img/window.png);
+}
+.spring_item .calendar {
+  position: absolute;
+  width: 1113px; height: 800px;
+  background: url(img/calander.png);
+}
+.spring_item .plant {
+  position: absolute;
+  width: 1113px; height: 800px;
+  background: url(img/3.png);
+}
+.spring_item .photo {
+  position: absolute;
+  width: 1113px; height: 800px;
+  background: url(img/photo.png);
+}
+.spring_item .you {
+  position: absolute;
+  width: 1113px; height: 800px;
+  background: url(img/you.png);
+}
+.spring_item .me {
+  position: absolute;
+  width: 1113px; height: 800px;
+  background: url(img/me.png);
+}
+
+.section1 .section2 {
+  position: fixed;
+  height: 100vh; width: 80%; left: 10%;
+  background-color: #A5F1E9;
+}
+
+.summer {
+  position: fixed; 
+}
+
+.summer .sumch {
+  position: absolute;
+  background: url(img/sumch.png);
+  width: 1113px; height: 800px;
+  left: 80px;
+}
+.summer .umb {
+  position: absolute;
+  background: url(img/umb.png);
+  width: 1113px; height: 800px;
+} 
+.summer .rain {
+  position: absolute;
+  background: url(img/raing.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+
+.section1 .section3 {
+  position: fixed;
+  height: 100vh; width: 80%; left: 10%;
+  background-color: #A9907E;
+}
+
+.section1 .section3 .road {
+  position: absolute;
+  background: url(img/fallroad.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+.section1 .section3 .me {
+  position: absolute;
+  background: url(img/fallme.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+.section1 .section3 .phone {
+  position: absolute;
+  background: url(img/fallphone.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+.section1 .section3 .tree1 {
+  position: absolute;
+  background: url(img/falltree1.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+.section1 .section3 .tree2 {
+  position: absolute;
+  background: url(img/falltree2.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+.section1 .section3 .tree3 {
+  position: absolute;
+  background: url(img/falltree3.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+.section1 .section3 .tree4 {
+  position: absolute;
+  background: url(img/falltree4.png) no-repeat;
+  width: 1113px; height: 800px;
+}
+
+.section1 .section4 {
+  position: fixed;
+  height: 100vh; width: 80%;
+  background-color: #CDFCF6;
+}
+
+.section1 .section4 .winteryou {
+  position: absolute;
+  background: url(img/winteryou.png) no-repeat;
+  width: 1113px; height: 800px;
+  top: 275px; left: 180px;
+}
+.section1 .section4 .winterme {
+  position: absolute;
+  background: url(img/winterme.png) no-repeat;
+  width: 1113px; height: 800px;
+  top: 275px; left: 250px;
+}
+.section1 .section4 .wintersnowman {
+  position: absolute;
+  background: url(img/wintersnowman.png) no-repeat;
+  width: 1113px; height: 800px;
+  left: 250px;
+}
+
+.finish {
+  position: fixed;
+  height: 100%; width: 100%;
+  background-color: #333;
+  top: 0px;
+}
+
+.finish span {
+  position: relative;
+  font-size: 150px;
+  font-family: 'Pangolin', cursive;
+  color: #fff;
+  left: 450px;
+  padding-left: 50px;
+  margin: 0 auto;
+}
+
+.finish p {
+  position: relative;
+  font-size: 50px;
+  font-family: 'Pangolin', cursive;
+  color: #fff;
+  left: 800px;
+  padding-left: 50px;
+  margin: 0 auto;
+}
+
+
+
+/* ----------------------------------------- */
+
+@media (max-width:1490px) {
+  .spring_item {
+    left: 0;
+  }
+}
